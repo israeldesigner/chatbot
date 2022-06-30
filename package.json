@@ -1,0 +1,53 @@
+{
+  "name": "webpack5-bootstrap4",
+  "version": "1.0.0",
+  "description": " package to create dev and build application with webpack",
+  "main": "server.js",
+  "scripts": {
+    "serve": "webpack serve",
+    "dev": "cross-env NODE_ENV=development webpack serve",
+    "production": "cross-env NODE_ENV=production webpack",
+    "start": "node server.js",
+    "build": "webpack",
+    "heroku-postbuild": "echo Skip builds on Heroku"
+  },
+  "keywords": [
+    "webpack 5",
+    "sass",
+    "bootstrap4",
+    "es6",
+    "heroku"
+  ],
+  "engines": {
+    "node": "16.14.2"
+  },
+  "author": "israel",
+  "license": "ISC",
+  "dependencies": {
+    "babel-loader": "^8.2.5",
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^10.2.4",
+    "cross-env": "^7.0.3",
+    "css-loader": "6.7.1",
+    "express": "^4.17.3",
+    "file-loader": "6.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "jquery": "^3.6.0",
+    "mini-css-extract-plugin": "2.6.0",
+    "node-sass": "7.0.1",
+    "popper": "^1.0.1",
+    "sass-loader": "12.6.0",
+    "style-loader": "3.3.1",
+    "terser-webpack-plugin": "^5.3.1",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.16.11",
+    "aos": "^2.3.4",
+    "babel-loader": "^8.2.5"
+  }
+}
